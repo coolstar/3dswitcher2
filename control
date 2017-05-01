@@ -1,0 +1,9 @@
+Package: org.coolstar.3dswitcher2
+Name: 3DSwitcher 2
+Depends: mobilesubstrate
+Version: 2.0.5
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: CoolStar
+Author: CoolStar
+Section: Tweaks

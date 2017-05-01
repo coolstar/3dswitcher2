@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = 3DSwitcher;
+	cell = PSLinkCell;
+	detail = 3DSwitcherListController;
+	icon = 3DSwitcher.png;
+	isController = 1;
+	label = "3D Switcher";
+    };
+}

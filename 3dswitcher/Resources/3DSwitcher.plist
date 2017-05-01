@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSTableCell</string>
+			<key>cellClass</key>
+			<string>CS3DSwitcherLogoCell</string>
+			<key>height</key>
+			<integer>40</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.coverflowswitcher</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>org.coolstar.coverflowswitcher</string>
+			<key>validTitles</key>
+			<array>
+				<string>3D Cards (Default)</string>
+				<string>Card Deck</string>
+				<string>CoverFlow</string>
+				<string>Inverse CoverFlow</string>
+				<string>Subtler CoverFlow</string>
+				<string>Inverse Subtler CoverFlow</string>
+				<string>2D Cards (iOS 7 &amp; 8 style)</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+			</array>
+			<key>key</key>
+			<string>mode</string>
+			<key>label</key>
+			<string>Mode</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Icon Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.coverflowswitcher</string>
+			<key>key</key>
+			<string>fadeIcons</string>
+			<key>label</key>
+			<string>Fade Icons</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.coverflowswitcher</string>
+			<key>key</key>
+			<string>scaleIcons</string>
+			<key>label</key>
+			<string>Scale Icons</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.coverflowswitcher</string>
+			<key>key</key>
+			<string>rollIcons</string>
+			<key>label</key>
+			<string>Roll Icons</string>
+		</dict>
+		<!--<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.coverflowswitcher</string>
+			<key>key</key>
+			<string>closerItems</string>
+			<key>label</key>
+			<string>Move Items closer</string>
+		</dict> Buggy -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>3D Switcher 2 is © 2017, CoolStar, All Rights Reserved. Icon is © 2015, Jeremy Goulet.</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>coolstarTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+			<key>label</key>
+			<string>CoolStar (@coolstarorg)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>jeremyGouletTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+			<key>label</key>
+			<string>Jeremy Goulet (@JeremyGoulet)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>
